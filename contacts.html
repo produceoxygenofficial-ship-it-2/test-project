@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SpaceGame — Контакты</title>
+  <meta name="description" content="Премиальные контакты SpaceGame: доверие, персональный сервис и быстрый запуск проекта.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Cormorant+Garamond:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="bg-glow glow-gold"></div>
+  <div class="bg-glow glow-ivory"></div>
+
+  <header class="topbar">
+    <div class="container topbar-inner">
+      <a class="brand" href="#" aria-label="SpaceGame">
+        <span class="brand-mark"></span>
+        <span class="brand-text">spacegame.ru</span>
+      </a>
+
+      <nav class="nav" aria-label="Навигация по разделам">
+        <a href="#channels">Контакты</a>
+        <a href="#brief">Бриф</a>
+        <a href="#trust">Почему нам доверяют</a>
+      </nav>
+
+      <a href="#brief" class="btn btn-gold btn-sm">Получить консультацию</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero container">
+      <div class="hero-copy panel dark">
+        <p class="kicker">Private Client Service</p>
+        <h1>Контакты в эстетике<br>ювелирной точности</h1>
+        <p>
+          Как в мире high-jewelry, здесь важна каждая деталь: прозрачная коммуникация,
+          персональный подход и сервис, который усиливает доверие к бренду с первого касания.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#brief" class="btn btn-gold">Оставить запрос</a>
+          <a href="https://t.me/spacegame" target="_blank" rel="noopener noreferrer" class="btn btn-line">Написать в Telegram</a>
+        </div>
+
+        <ul class="metrics" aria-label="Ключевые метрики">
+          <li><strong>15 минут</strong><span>средний первый ответ</span></li>
+          <li><strong>24/7</strong><span>мониторинг приоритетных задач</span></li>
+          <li><strong>Concierge</strong><span>персональный менеджер</span></li>
+        </ul>
+      </div>
+
+      <aside class="hero-card panel light">
+        <p class="eyebrow">Приоритетный канал</p>
+        <a class="phone" href="tel:+79990000000">+7 (999) 000-00-00</a>
+        <p class="small">Для срочных обращений и проектов с быстрым стартом.</p>
+
+        <div class="contact-list">
+          <a href="mailto:sales@spacegame.ru">
+            <span>Коммерческий отдел</span>
+            <b>sales@spacegame.ru</b>
+          </a>
+          <a href="mailto:support@spacegame.ru">
+            <span>Техническая поддержка</span>
+            <b>support@spacegame.ru</b>
+          </a>
+          <a href="https://t.me/spacegame" target="_blank" rel="noopener noreferrer">
+            <span>Telegram</span>
+            <b>@spacegame</b>
+          </a>
+        </div>
+      </aside>
+    </section>
+
+    <section id="channels" class="container channels">
+      <article class="channel featured">
+        <p class="eyebrow">Рекомендуем для первого контакта</p>
+        <h2>Telegram — быстрый и персональный старт</h2>
+        <p>Отправьте задачу одним сообщением. Мы предложим формат, бюджет и сроки без лишних шагов.</p>
+        <a href="https://t.me/spacegame" target="_blank" rel="noopener noreferrer">Перейти в @spacegame</a>
+      </article>
+
+      <article class="channel">
+        <h2>Коммерция и условия</h2>
+        <p>Договор, SLA, финальные условия, запуск и сопровождение проекта.</p>
+        <a href="mailto:sales@spacegame.ru">sales@spacegame.ru</a>
+      </article>
+
+      <article class="channel">
+        <h2>Инженерные вопросы</h2>
+        <p>Инфраструктура, API, архитектура, производительность и техподдержка.</p>
+        <a href="mailto:support@spacegame.ru">support@spacegame.ru</a>
+      </article>
+    </section>
+
+    <section id="brief" class="container brief-wrap">
+      <div class="brief-copy panel dark">
+        <p class="kicker">Bespoke approach</p>
+        <h2>Короткий бриф — точный план запуска</h2>
+        <p>
+          Вы оставляете данные и цель, мы возвращаемся с понятным маршрутом: что делаем,
+          в какие сроки и как это влияет на продажи.
+        </p>
+      </div>
+
+      <form class="brief-form panel light" action="#" method="post">
+        <label>
+          Имя и компания
+          <input type="text" name="name" placeholder="Евгений, SpaceGame" required>
+        </label>
+
+        <label>
+          Контакт
+          <input type="text" name="contact" placeholder="+7, @telegram или email" required>
+        </label>
+
+        <label>
+          Бюджет
+          <select name="budget" required>
+            <option value="" disabled selected>Выберите диапазон</option>
+            <option value="up-to-200">до 200 000 ₽</option>
+            <option value="200-700">200 000 — 700 000 ₽</option>
+            <option value="700-plus">700 000 ₽ и выше</option>
+          </select>
+        </label>
+
+        <label>
+          Описание задачи
+          <textarea name="message" rows="5" placeholder="Цель, сроки, текущая ситуация" required></textarea>
+        </label>
+
+        <button type="submit" class="btn btn-gold">Получить персональное предложение</button>
+        <p class="note">Нажимая кнопку, вы принимаете условия обработки персональных данных.</p>
+      </form>
+    </section>
+
+    <section id="trust" class="container trust">
+      <h2>Почему это вызывает доверие</h2>
+      <div class="trust-grid">
+        <article>
+          <h3>Четкая премиальная подача</h3>
+          <p>Сдержанная luxury-эстетика усиливает восприятие бренда и ценность вашего предложения.</p>
+        </article>
+        <article>
+          <h3>Прозрачная коммуникация</h3>
+          <p>Понятные каналы, сроки ответа и формат взаимодействия без неопределенности.</p>
+        </article>
+        <article>
+          <h3>Сервис под задачу клиента</h3>
+          <p>Каждый запрос обрабатывается как bespoke-заказ: персонально и с фокусом на результат.</p>
+        </article>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
